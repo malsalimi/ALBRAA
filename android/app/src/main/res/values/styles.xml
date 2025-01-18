@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme applied to the Android Window while the process is starting when the OS's Dark Mode setting is off -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <!-- Show a splash screen on the activity. Automatically removed when
+             the Flutter engine draws its first frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    
+    <!-- Theme applied to the Android Window as soon as the process has started -->
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+
+    <!-- Facebook SDK -->
+    <string name="facebook_app_id">1688791255312244</string>
+    <string name="facebook_client_token">8a4d8065c6b737f2f82eb7a97f5e93ed</string>
+    
+    <!-- App Name -->
+    <string name="app_name">My Flutter APK</string>
+
+    <string name="default_notification_channel_id">my_default_channel</string>
+
+    <!-- Facebook login scheme -->
+    <string name="fb_login_protocol_scheme">fb1688791255312244</string>
+</resources>
